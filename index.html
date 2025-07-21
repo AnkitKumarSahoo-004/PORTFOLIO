@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit - Frontend Developer & UI/UX Enthusiast</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">ANKIT KUMAR SAHOO</div>
+            <div class="menu-toggle">
+                <div class="hamburger"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <h1>Hello!, it's <span class="highlight">Kumar this side!</span></h1>
+                <h2 class="typing-effect">Front-End Developer & UI/UX Enthusiast</h2>
+                <div class="cta-buttons">
+                    <a href="#" class="btn primary">Download Resume</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image animated-border profile-float" data-aos="fade-left">
+                <!-- Layered blurred color backgrounds for depth -->
+                <div class="profile-bg-blur profile-bg-blue"></div>
+                <div class="profile-bg-blur profile-bg-pink"></div>
+                <div class="profile-bg-blur profile-bg-violet"></div>
+                <div class="profile-frame profile-hover-red profile-hover-trigger profile-tilt">
+                    <img src="main.jpg" alt="Profile Illustration" class="profile-img-smooth">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title section-title-underline" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text about-card violet-hover new-hover" data-aos="fade-right">
+                    <p>I'm a passionate front-end developer with a keen eye for design and user experience. I transform ideas into elegant, functional, and user-friendly websites.</p>
+                    <div class="fun-facts">
+                        <h3>Fun Facts</h3>
+                        <ul>
+                            <li>🌱 Always learning new technologies</li>
+                            <li>🎨 Love experimenting with UI animations</li>
+                            <li>🎮 Gaming enthusiast</li>
+                            <li>☕ Fueled by coffee</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title section-title-underline" data-aos="fade-up">Skills</h2>
+            <div class="skills-content alt-skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item alt-skill-card" data-skill="HTML">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <div class="skill-info">
+                                <span>HTML</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item alt-skill-card" data-skill="CSS">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <div class="skill-info">
+                                <span>CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item alt-skill-card" data-skill="JavaScript">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item alt-skill-card" data-skill="C">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <div class="skill-info">
+                                <span>C</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item alt-skill-card" data-skill="SQL">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <div class="skill-info">
+                                <span>SQL</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item alt-skill-card" data-skill="Python">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title section-title-underline" data-aos="fade-up">Education</h2>
+            <div class="timeline alt-timeline">
+                <div class="timeline-item alt-timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon alt-timeline-icon icon-pulse">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content alt-timeline-content">
+                        <h3>Bachelor of Technology in Computer Science</h3>
+                        <p>Lakshya Institute of Technology</p>
+                        <span class="edu-meta">2024 - 27 &bull; CGPA: Currently Studying</span>
+                    </div>
+                </div>
+                <div class="timeline-item alt-timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-icon alt-timeline-icon icon-pulse">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content alt-timeline-content">
+                        <h3>12th - Higher Secondary Education</h3>
+                        <p>Sanskar Public School</p>
+                        <span class="edu-meta">2022-24 &bull; Percentage: 57%</span>
+                    </div>
+                </div>
+                <div class="timeline-item alt-timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-icon alt-timeline-icon icon-pulse">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content alt-timeline-content">
+                        <h3>10th - Secondary Education</h3>
+                        <p>Sanskar Public School</p>
+                        <span class="edu-meta">2021-22 &bull; Percentage: 51%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title section-title-underline" data-aos="fade-up">Certifications</h2>
+            <div class="cert-simple-grid">
+                <div class="cert-simple-card" data-aos="fade-up">
+                    <div class="cert-simple-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-simple-info">
+                        <h3>C Language</h3>
+                        <span class="cert-badge badge-certificate">Certificate</span>
+                        <a href="cirtificates/c%20cirtificate.pdf" class="btn-link" target="_blank">View</a>
+                    </div>
+                </div>
+                <div class="cert-simple-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-simple-icon"><i class="fab fa-js"></i></div>
+                    <div class="cert-simple-info">
+                        <h3>JavaScript</h3>
+                        <span class="cert-badge badge-certificate">Certificate</span>
+                        <a href="#" class="btn-link">View</a>
+                    </div>
+                </div>
+                <div class="cert-simple-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-simple-icon"><i class="fab fa-python"></i></div>
+                    <div class="cert-simple-info">
+                        <h3>Python</h3>
+                        <span class="cert-badge badge-certificate">Certificate</span>
+                        <a href="#" class="btn-link">View</a>
+                    </div>
+                </div>
+                <div class="cert-simple-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="cert-simple-icon"><i class="fas fa-database"></i></div>
+                    <div class="cert-simple-info">
+                        <h3>SQL</h3>
+                        <span class="cert-badge badge-certificate">Certificate</span>
+                        <a href="#" class="btn-link">View</a>
+                    </div>
+                </div>
+                <div class="cert-simple-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="cert-simple-icon"><i class="fas fa-file-alt"></i></div>
+                    <div class="cert-simple-info">
+                        <h3>Resume And Coverletters</h3>
+                        <span class="cert-badge badge-document">Document</span>
+                        <a href="cirtificates/resume%20and%20coverletters.pdf" class="btn-link" target="_blank">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects & Achievements Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title section-title-underline" data-aos="fade-up">Projects & Achievements</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="projects">Projects</button>
+                <button class="tab-btn" data-tab="achievements">Achievements</button>
+            </div>
+            
+            <div class="tab-content">
+                <div id="projects-content" class="tab-pane active">
+                    <div class="projects-grid">
+                        <div class="project-card project-hover" data-aos="fade-up">
+                            <div class="project-image">
+                                <img src="images/car-animation.png" alt="Car Animation" class="modal-trigger project-img-car" data-img="images/car-animation.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Car Animation</h3>
+                                <p>A modern animated car project built with HTML, CSS, and JavaScript. Features smooth motion, interactive controls, and a visually appealing UI.</p>
+                                <div class="project-links">
+                                    <a href="#" class="btn-link">Live Demo</a>
+                                    <a href="#" class="btn-link">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="achievements-content" class="tab-pane">
+                    <div class="achievements-list" data-aos="fade-up">
+                        <div class="achievement-item fade-stagger">
+                            <i class="fas fa-trophy"></i>
+                            <div class="achievement-info">
+                                <h3>1st Place - Web Development Hackathon</h3>
+                                <p>Created an innovative solution for online education</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item fade-stagger">
+                            <i class="fas fa-award"></i>
+                            <div class="achievement-info">
+                                <h3>Best UI/UX Design Award</h3>
+                                <p>Regional Design Competition 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for project preview -->
+            <div id="modal" class="modal">
+                <span class="close-modal">&times;</span>
+                <img class="modal-content" id="modal-img" src="" alt="Project Preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title section-title-underline" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content alt-contact-grid">
+                <div class="contact-info alt-contact-info" data-aos="fade-right">
+                    <div class="contact-item alt-contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <a href="mailto:ankitkumarcs004@gmail.com">ankitkumarcs004@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item alt-contact-item">
+                        <div class="contact-icon"><i class="fab fa-github"></i></div>
+                        <div class="contact-details">
+                            <a href="https://github.com/AnkitKumarSahoo-004" target="_blank">github.com/AnkitKumarSahoo-004</a>
+                        </div>
+                    </div>
+                    <div class="contact-item alt-contact-item">
+                        <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                        <div class="contact-details">
+                            <a href="https://www.linkedin.com/in/ankit-kumar-sahoo-84390a33b/" target="_blank">linkedin.com/in/ankit-kumar-sahoo-84390a33b</a>
+                        </div>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form alt-contact-form" data-aos="fade-left">
+                    <div class="form-group floating-label">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group floating-label">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group floating-label">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Ankit. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <button id="scroll-top" class="scroll-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
